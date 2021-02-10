@@ -7,7 +7,7 @@
  * @throws MissingLibraryError
  */
 QueryBuilder.define('bt-tooltip-errors', function(options) {
-    if (!$.fn.tooltip || !$.fn.tooltip.Constructor || !$.fn.tooltip.Constructor.prototype.fixTitle) {
+    if (!$.fn.tooltip || !$.fn.tooltip.Constructor || !$.fn.tooltip.Constructor.prototype._fixTitle) {
         Utils.error('MissingLibrary', 'Bootstrap Tooltip is required to use "bt-tooltip-errors" plugin. Get it here: http://getbootstrap.com');
     }
 
@@ -26,7 +26,7 @@ QueryBuilder.define('bt-tooltip-errors', function(options) {
             node.$el.find(QueryBuilder.selectors.error_container).eq(0)
                 .tooltip(options)
                 .tooltip('hide')
-                .tooltip('fixTitle');
+                .tooltip('_fixTitle');
         }
     });
 }, {

@@ -40,19 +40,19 @@ $ npm install jQuery-QueryBuilder
 
 jQuery-QueryBuilder is available on [jsDelivr](https://www.jsdelivr.com/package/npm/jQuery-QueryBuilder).
 ### Dependencies
- * [jQuery 3](https://jquery.com)
- * [Bootstrap 3](https://getbootstrap.com/docs/3.3) (CSS only)
- * [jQuery.extendext](https://github.com/mistic100/jQuery.extendext)
- * [doT.js](https://olado.github.io/doT)
- * [MomentJS](https://momentjs.com) (optional, for Date/Time validation)
- * [SQL Parser](https://github.com/mistic100/sql-parser) (optional, for SQL methods)
- * Other Bootstrap/jQuery plugins used by plugins
+* [jQuery 3](https://jquery.com)
+* [Bootstrap 3](https://getbootstrap.com/docs/3.3) (CSS only)
+* [jQuery.extendext](https://github.com/mistic100/jQuery.extendext)
+* [doT.js](https://olado.github.io/doT)
+* [MomentJS](https://momentjs.com) (optional, for Date/Time validation)
+* [SQL Parser](https://github.com/mistic100/sql-parser) (optional, for SQL methods)
+* Other Bootstrap/jQuery plugins used by plugins
 
 ($.extendext and doT.js are directly included in the [standalone](https://github.com/mistic100/jQuery-QueryBuilder/blob/master/dist/js/query-builder.standalone.js) file)
 
 ### Browser support
- * Internet Explorer >= 9
- * All other recent browsers
+* Internet Explorer >= 9
+* All other recent browsers
 
 
 
@@ -60,8 +60,8 @@ jQuery-QueryBuilder is available on [jsDelivr](https://www.jsdelivr.com/package/
 
 #### Prerequisites
 
- * NodeJS + NPM: `apt-get install nodejs-legacy npm`
- * Grunt CLI: `npm install -g grunt-cli`
+* NodeJS + NPM: `apt-get install nodejs-legacy npm`
+* Grunt CLI: `npm install -g grunt-cli`
 
 #### Run
 
@@ -87,9 +87,9 @@ grunt --languages=fr,it
 
 #### Other commands
 
- * `grunt test` to run jshint/jscs/scsslint and the QUnit test suite.
- * `grunt serve` to open the example page with automatic build and livereload.
- * `grunt doc` to generate the documentation.
+* `grunt test` to run jshint/jscs/scsslint and the QUnit test suite.
+* `grunt serve` to open the example page with automatic build and livereload.
+* `grunt doc` to generate the documentation.
 
 
 ## License

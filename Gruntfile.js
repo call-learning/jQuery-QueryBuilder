@@ -29,6 +29,7 @@ module.exports = function(grunt) {
         js_files_for_standalone: [
             'node_modules/jquery-extendext/jQuery.extendext.js',
             'node_modules/dot/doT.js',
+            'node_modules/moment/moment.js',
             'dist/js/query-builder.js'
         ]
     });

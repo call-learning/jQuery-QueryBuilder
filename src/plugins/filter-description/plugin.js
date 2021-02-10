@@ -32,7 +32,7 @@ QueryBuilder.define('filter-description', function(options) {
     }
     // POPOVER
     else if (options.mode === 'popover') {
-        if (!$.fn.popover || !$.fn.popover.Constructor || !$.fn.popover.Constructor.prototype.fixTitle) {
+        if (!$.fn.popover || !$.fn.popover.Constructor || !$.fn.popover.Constructor.prototype._fixTitle) {
             Utils.error('MissingLibrary', 'Bootstrap Popover is required to use "filter-description" plugin. Get it here: http://getbootstrap.com');
         }
 
